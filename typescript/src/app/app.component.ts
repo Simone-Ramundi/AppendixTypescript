@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'typescript';
+  sum(pippo:number,pluto:number) {
+    return pippo + pluto;
+  }
 }
